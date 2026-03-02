@@ -1,0 +1,9 @@
+[console_scripts]
+camimu_node = loc_bridge.camimu_node:main
+ekf_switch_node = loc_bridge.ekf_switch_node:main
+odom_csv_logger = loc_bridge.odom_csv_logger:main
+plan_csv_logger = loc_bridge.plan_csv_logger:main
+rpm_to_odom = loc_bridge.rpm_to_odom_node:main
+s_fusion_node = loc_bridge.s_fusion_node:main
+yaw_to_imu = loc_bridge.yaw_to_imu_node:main
+

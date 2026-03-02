@@ -1,0 +1,32 @@
+running develop
+running egg_info
+creating loc_bridge.egg-info
+writing loc_bridge.egg-info/PKG-INFO
+writing dependency_links to loc_bridge.egg-info/dependency_links.txt
+writing entry points to loc_bridge.egg-info/entry_points.txt
+writing requirements to loc_bridge.egg-info/requires.txt
+writing top-level names to loc_bridge.egg-info/top_level.txt
+writing manifest file 'loc_bridge.egg-info/SOURCES.txt'
+reading manifest file 'loc_bridge.egg-info/SOURCES.txt'
+writing manifest file 'loc_bridge.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/maffin21/loc2_ws/install/loc_bridge/lib/python3.10/site-packages/loc-bridge.egg-link (link to .)
+Installing camimu_node script to /home/maffin21/loc2_ws/install/loc_bridge/lib/loc_bridge
+Installing ekf_switch_node script to /home/maffin21/loc2_ws/install/loc_bridge/lib/loc_bridge
+Installing odom_csv_logger script to /home/maffin21/loc2_ws/install/loc_bridge/lib/loc_bridge
+Installing plan_csv_logger script to /home/maffin21/loc2_ws/install/loc_bridge/lib/loc_bridge
+Installing rpm_to_odom script to /home/maffin21/loc2_ws/install/loc_bridge/lib/loc_bridge
+Installing s_fusion_node script to /home/maffin21/loc2_ws/install/loc_bridge/lib/loc_bridge
+Installing yaw_to_imu script to /home/maffin21/loc2_ws/install/loc_bridge/lib/loc_bridge
+
+Installed /home/maffin21/loc2_ws/build/loc_bridge
+running symlink_data
+creating /home/maffin21/loc2_ws/install/loc_bridge/share/ament_index
+creating /home/maffin21/loc2_ws/install/loc_bridge/share/ament_index/resource_index
+creating /home/maffin21/loc2_ws/install/loc_bridge/share/ament_index/resource_index/packages
+symbolically linking /home/maffin21/loc2_ws/build/loc_bridge/resource/loc_bridge -> /home/maffin21/loc2_ws/install/loc_bridge/share/ament_index/resource_index/packages
+symbolically linking /home/maffin21/loc2_ws/build/loc_bridge/package.xml -> /home/maffin21/loc2_ws/install/loc_bridge/share/loc_bridge
+creating /home/maffin21/loc2_ws/install/loc_bridge/share/loc_bridge/config
+symbolically linking /home/maffin21/loc2_ws/build/loc_bridge/config/ekf_camimu.yaml -> /home/maffin21/loc2_ws/install/loc_bridge/share/loc_bridge/config
+creating /home/maffin21/loc2_ws/install/loc_bridge/share/loc_bridge/launch
+symbolically linking /home/maffin21/loc2_ws/build/loc_bridge/launch/loc_stack_camimu.launch.py -> /home/maffin21/loc2_ws/install/loc_bridge/share/loc_bridge/launch

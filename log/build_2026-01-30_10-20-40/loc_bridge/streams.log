@@ -1,0 +1,34 @@
+[0.529s] Invoking command in '/home/maffin21/loc2_ws/build/loc_bridge': PYTHONPATH=/home/maffin21/loc2_ws/build/loc_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maffin21/loc2_ws/install/loc_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/maffin21/loc2_ws/build/loc_bridge/build --no-deps symlink_data
+[0.740s] running develop
+[0.902s] running egg_info
+[0.902s] creating loc_bridge.egg-info
+[0.902s] writing loc_bridge.egg-info/PKG-INFO
+[0.902s] writing dependency_links to loc_bridge.egg-info/dependency_links.txt
+[0.902s] writing entry points to loc_bridge.egg-info/entry_points.txt
+[0.902s] writing requirements to loc_bridge.egg-info/requires.txt
+[0.902s] writing top-level names to loc_bridge.egg-info/top_level.txt
+[0.903s] writing manifest file 'loc_bridge.egg-info/SOURCES.txt'
+[0.904s] reading manifest file 'loc_bridge.egg-info/SOURCES.txt'
+[0.904s] writing manifest file 'loc_bridge.egg-info/SOURCES.txt'
+[0.936s] running build_ext
+[0.936s] Creating /home/maffin21/loc2_ws/install/loc_bridge/lib/python3.10/site-packages/loc-bridge.egg-link (link to .)
+[0.937s] Installing camimu_node script to /home/maffin21/loc2_ws/install/loc_bridge/lib/loc_bridge
+[0.937s] Installing ekf_switch_node script to /home/maffin21/loc2_ws/install/loc_bridge/lib/loc_bridge
+[0.937s] Installing odom_csv_logger script to /home/maffin21/loc2_ws/install/loc_bridge/lib/loc_bridge
+[0.937s] Installing plan_csv_logger script to /home/maffin21/loc2_ws/install/loc_bridge/lib/loc_bridge
+[0.937s] Installing rpm_to_odom script to /home/maffin21/loc2_ws/install/loc_bridge/lib/loc_bridge
+[0.937s] Installing s_fusion_node script to /home/maffin21/loc2_ws/install/loc_bridge/lib/loc_bridge
+[0.937s] Installing yaw_to_imu script to /home/maffin21/loc2_ws/install/loc_bridge/lib/loc_bridge
+[0.937s] 
+[0.937s] Installed /home/maffin21/loc2_ws/build/loc_bridge
+[0.937s] running symlink_data
+[0.937s] creating /home/maffin21/loc2_ws/install/loc_bridge/share/ament_index
+[0.937s] creating /home/maffin21/loc2_ws/install/loc_bridge/share/ament_index/resource_index
+[0.937s] creating /home/maffin21/loc2_ws/install/loc_bridge/share/ament_index/resource_index/packages
+[0.938s] symbolically linking /home/maffin21/loc2_ws/build/loc_bridge/resource/loc_bridge -> /home/maffin21/loc2_ws/install/loc_bridge/share/ament_index/resource_index/packages
+[0.938s] symbolically linking /home/maffin21/loc2_ws/build/loc_bridge/package.xml -> /home/maffin21/loc2_ws/install/loc_bridge/share/loc_bridge
+[0.938s] creating /home/maffin21/loc2_ws/install/loc_bridge/share/loc_bridge/config
+[0.938s] symbolically linking /home/maffin21/loc2_ws/build/loc_bridge/config/ekf_camimu.yaml -> /home/maffin21/loc2_ws/install/loc_bridge/share/loc_bridge/config
+[0.938s] creating /home/maffin21/loc2_ws/install/loc_bridge/share/loc_bridge/launch
+[0.938s] symbolically linking /home/maffin21/loc2_ws/build/loc_bridge/launch/loc_stack_camimu.launch.py -> /home/maffin21/loc2_ws/install/loc_bridge/share/loc_bridge/launch
+[0.967s] Invoked command in '/home/maffin21/loc2_ws/build/loc_bridge' returned '0': PYTHONPATH=/home/maffin21/loc2_ws/build/loc_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maffin21/loc2_ws/install/loc_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/maffin21/loc2_ws/build/loc_bridge/build --no-deps symlink_data

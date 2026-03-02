@@ -1,0 +1,58 @@
+ekf_node:
+  ros__parameters:
+    frequency: 30.0
+    sensor_timeout: 0.5
+    two_d_mode: true
+    publish_tf: false
+
+    map_frame: map
+    odom_frame: odom
+    base_link_frame: base_link
+    world_frame: odom
+
+    odom_topic: /odometry/filtered
+
+    # ==== Wheel Odometry ==== 
+    # 位置 x,y と 前進速度 vx のみを使用（yaw/角速度は使わない）
+    odom0: /wheel/odom_raw
+    odom0_config: [false,  false,  false,   # x, y, z
+                   false, false, false,   # roll, pitch, yaw  ← false
+                   true,  false, false,   # vx, vy, vz
+                   false, false, false,   # wx, wy, wz        ← false
+                   false, false, false]   # ax, ay, az
+    odom0_differential: true
+    odom0_relative: true
+
+    # ==== (削除) Camera Odometry from Twist ====
+    # カメラ速度は使用しないため、/camera/odom_from_twist の購読をやめる
+    # odom1: /camera/odom_from_twist
+    # odom1_config: [false, false, false,
+    #                false, false, false,
+    #                true,  false, false,
+    #                false, false, true,
+    #                false, false, false]
+    # odom1_differential: true
+    # odom1_relative: true
+
+    # ==== IMU (UM7) ====
+    imu0: /um7/data
+    imu0_config: [false, false, false,   # x, y, z
+                  false, false, true,    # roll, pitch, yaw
+                  false, false, false,   # vx, vy, vz
+                  false, false, true,    # wx, wy, wz
+                  false, false, false]   # ax, ay, az
+    imu0_differential: false
+    imu0_relative: false
+    imu0_remove_gravitational_acceleration: true
+
+    # ==== Camera Yaw (Pose from cam_theta) ====
+    # ekf_switch_node が作るカメラ由来のYaw姿勢を使用
+    pose0: /ekf/cam_pose
+    pose0_config: [false, false, false,  # x, y, z
+                   false, false, true,   # roll, pitch, yaw
+                   false, false, false,  # vx, vy, vz
+                   false, false, false,  # wx, wy, wz
+                   false, false, false]  # ax, ay, az
+    pose0_differential: false
+    pose0_relative: false
+
